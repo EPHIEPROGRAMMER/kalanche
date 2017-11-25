@@ -397,6 +397,13 @@ color:#fff;
         
 }
 
+@media (max-width: 768px) {
+    .main-heading-title
+    {
+        display:none;
+    }
+}
+
 .navbar-toggle {
 	border-radius:20%;
         transition:all 1s;
