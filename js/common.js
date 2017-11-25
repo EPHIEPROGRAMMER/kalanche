@@ -69,12 +69,12 @@ VERSION : 1.1
        $(window).scroll(function()
        {
        var top_v=$(window).scrollTop();
-       var themecolor="#008AFF";
+       var themecolor="#f8198d";
       if(top_v>=30)
       {
         
-          $(".nim-menu").css({height:"70px",padding:"15px",background:"#c9cc49",boxShadow:"2px 2px 3px 3px rgb(59, 124, 214)"});
-          $(".nim-menu.navbar-default .navbar-nav > li > a,a.navbar-brand").css("color","#06070a");
+          $(".nim-menu").css({height:"80px",padding:"15px",background:"#fff",boxShadow:"2px 2px 3px 3px rgb(49, 95, 234)"});
+          $(".nim-menu.navbar-default .navbar-nav > li > a,a.navbar-brand").css("color","#000");
            $(".nim-menu.navbar-default .navbar-nav > li > a").hover(function(){$(this).css("color",themecolor)},function(){$(this).css("color","#000")})
        }
       else
